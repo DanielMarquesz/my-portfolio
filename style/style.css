@@ -240,7 +240,7 @@ a:active, a:hover{
         color: #ffffff;
         text-shadow: 2px 2px 8px #000000;
         position: absolute;
-        left: 12%;
+        left: 0%;
         top: 110%;    
     
     }
@@ -260,18 +260,7 @@ a:active, a:hover{
         left: 15%;
         top: 30%;        
     }
-
-    .banner p{
     
-        font-family: 'Karla', sans-serif;
-        font-size: .7rem;
-        color: #ffffff;
-        text-shadow: 2px 2px 8px #000000;
-        position: absolute;
-        left: 20%;
-        top: 110%;    
-    
-    }
 }
 
 .typing-stop{
