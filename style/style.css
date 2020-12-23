@@ -222,6 +222,34 @@ a:active, a:hover{
 }
 
 
+@media(max-width: 423px){
+    .banner{
+
+        font-family: var(--Karla);
+        font-size: 10rem;
+        color: #ffffff;
+        position: absolute;
+        left: 15%;
+        top: 30%;        
+    }
+
+    .banner p{
+    
+        font-family: 'Karla', sans-serif;
+        font-size: .7rem;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+        position: absolute;
+        left: 12%;
+        top: 110%;    
+    
+    }
+
+    
+}
+
+
+
 @media(max-width: 673px){
     div.banner{
 
@@ -231,6 +259,18 @@ a:active, a:hover{
         position: absolute;
         left: 15%;
         top: 30%;        
+    }
+
+    .banner p{
+    
+        font-family: 'Karla', sans-serif;
+        font-size: .7rem;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+        position: absolute;
+        left: 20%;
+        top: 110%;    
+    
     }
 }
 
@@ -299,4 +339,28 @@ a:active, a:hover{
     margin-left: 6.2rem;
     margin-right: 6.5rem;
     padding-bottom: 3rem;
+}
+
+@media(max-width: 423px){
+
+    .header-about-me h2{    
+        display: flex;    
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-family: var(--Karla);
+        font-size: 2rem;
+        font-weight: 950;  
+    }
+    
+    .about-me p {
+        text-align: justify;
+        line-height: 2.3rem;
+        font-family: var(--Karla);
+        font-size: 1.3rem;
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        padding-bottom: 3rem;
+    }
+
 }
