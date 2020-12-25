@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap');
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 
 
 :root{
@@ -191,11 +191,36 @@ a:active, a:hover{
         color: #ffffff;
         text-shadow: 2px 2px 8px #000000;
         position: absolute;
-        left: 18%;
+        left: 15%;
         top: 110%;    
     
     }
 }
+
+@media(max-width: 530){
+    .banner{
+
+        font-family: var(--Karla);
+        font-size: 3rem;
+        color: #ffffff;
+        position: absolute;
+        left: 20%;
+        top: 30%;        
+    }
+
+    .banner p{
+    
+        font-family: 'Karla', sans-serif;
+        font-size: 8rem;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+        position: absolute;
+        left: 0;
+        top: 110%;    
+    
+    }
+}
+
 
 @media(max-width: 463px){
     .banner{
@@ -211,7 +236,7 @@ a:active, a:hover{
     .banner p{
     
         font-family: 'Karla', sans-serif;
-        font-size: .7rem;
+        font-size: 1rem;
         color: #ffffff;
         text-shadow: 2px 2px 8px #000000;
         position: absolute;
@@ -236,13 +261,12 @@ a:active, a:hover{
     .banner p{
     
         font-family: 'Karla', sans-serif;
-        font-size: .7rem;
+        font-size: 1rem;
         color: #ffffff;
         text-shadow: 2px 2px 8px #000000;
         position: absolute;
         left: 0%;
-        top: 110%;    
-    
+        top: 110%;       
     }
 
     
@@ -304,6 +328,7 @@ a:active, a:hover{
     }
 }
 
+/* #####################  Sessão Sobre mim ######################### */
 
 .above{    
     margin-top: -.2rem;
@@ -352,4 +377,48 @@ a:active, a:hover{
         padding-bottom: 3rem;
     }
 
+}
+
+/* ############################ Sessão Conhecimentos #######################*/
+
+.container-conhecimento{
+    background: #eee7e7; 
+}
+
+.header-conhecimento{
+    display: flex;    
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-family: var(--Karla);
+    font-size: 2rem;
+    font-weight: 950;
+}
+
+.conhecimento-wrapper{
+    text-align: center;
+    display: grid;
+    margin: 1.5rem 5rem 5rem;
+    padding-bottom: 4rem;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));     
+}
+
+.box{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.conhecimento-wrapper .box .conhecimento-front{
+    background: #fff;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conhecimento-wrapper .box .conhecimento-front .icon{
+    height: 80px;
+    font-size: 50px;
 }
