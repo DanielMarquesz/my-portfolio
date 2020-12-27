@@ -493,8 +493,8 @@ a:active, a:hover{
         left: -20;
         background: #fff;
         z-index: 1;
-        height: 220px;
-        width: 100%;
+        height: 180px;
+        width: 80%;
         padding: 30px;    
         transform-style: preserve-3d;
         backface-visibility: hidden;    
