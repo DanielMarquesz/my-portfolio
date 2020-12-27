@@ -288,10 +288,12 @@ a:active, a:hover{
 }
 
 .typing-stop{
+
     content: "";          
 }
 
 .typing-stop::after{
+
     content: "  ";
     position: absolute;
     right: -.6rem;
@@ -303,10 +305,12 @@ a:active, a:hover{
 }
 
 .typing{
+
     position: relative;
 }
 
 .typing::after{
+
     content: "";
     position: absolute;
     text-align: center;
@@ -319,6 +323,7 @@ a:active, a:hover{
 }
 
 @keyframes blink{
+
     0%{
         opacity: 0;
     }
@@ -331,11 +336,13 @@ a:active, a:hover{
 /* #####################  Sessão Sobre mim ######################### */
 
 .above{    
+
     margin-top: -.2rem;
     background: #ffffff;  
 }
 
-.header-about-me h2{    
+.header-about-me h2{   
+
     display: flex;    
     justify-content: center;
     padding-top: 4rem;
@@ -346,6 +353,7 @@ a:active, a:hover{
 }
 
 .about-me p {
+
     text-align: justify;
     line-height: 2.3rem;
     font-family: var(--Karla);
@@ -358,6 +366,7 @@ a:active, a:hover{
 @media(max-width: 423px){
 
     .header-about-me h2{    
+
         display: flex;    
         justify-content: center;
         padding-top: 3rem;
@@ -368,6 +377,7 @@ a:active, a:hover{
     }
     
     .about-me p {
+
         text-align: justify;
         line-height: 2.3rem;
         font-family: var(--Karla);
@@ -381,11 +391,18 @@ a:active, a:hover{
 
 /* ############################ Sessão Conhecimentos #######################*/
 
+.conhecimento{
+    
+    position: relative;
+}
+
 .container-conhecimento{
+
     background: #eee7e7; 
 }
 
 .header-conhecimento{
+
     display: flex;    
     justify-content: center;
     padding-top: 4rem;
@@ -396,29 +413,70 @@ a:active, a:hover{
 }
 
 .conhecimento-wrapper{
+
     text-align: center;
     display: grid;
     margin: 1.5rem 5rem 5rem;
     padding-bottom: 4rem;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));     
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));     
 }
 
 .box{
-    width: 350px;
+
+    width: 300px;
     margin: 0 auto;
+    position: relative;
+    perspective: 1000px;    
 }
 
 .conhecimento-wrapper .box .conhecimento-front{
+
     background: #fff;
     height: 220px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0px 5px 20px 0px rgb(0, 0, 0);
+    border-radius: .2rem;
+    transition: all 0.5s ease;
 }
 
 .conhecimento-wrapper .box .conhecimento-front .icon{
+
     height: 80px;
     font-size: 50px;
+}
+
+.box .conhecimento-back{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    height: 220px;
+    width: 100%;
+    padding: 30px;    
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    /* display: none; */
+    opacity: 0;
+    background: rgb(121, 82, 82);
+    transform: translateY(110px) rotateX(-90deg);
+    transition: all 0.5s ease;
+}
+
+.box:hover .conhecimento-back{
+
+    opacity: 1;
+    transform: rotateX(0deg);
+    border-radius: .2rem;
+}
+
+.box:hover .conhecimento-front{
+
+    opacity: 0;
+    transform: translateY(-110px) rotateX(90deg);
 }
