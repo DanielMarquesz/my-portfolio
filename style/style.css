@@ -430,7 +430,8 @@ a:active, a:hover{
     position: relative;
     width: 250px;
     margin: 0 auto;    
-    perspective: 1000px;      
+    perspective: 1000px;    
+    cursor: pointer;  
 }
 
 .conhecimento-wrapper .box .conhecimento-front{

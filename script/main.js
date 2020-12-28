@@ -1,4 +1,8 @@
 
+onload=function(){
+    document.body.style.visibility="visible"
+    }
+
 function toggleClass(){     // Change the class of the navigation bar 
     
     if(window.scrollY > 200){
