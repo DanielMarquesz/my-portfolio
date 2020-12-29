@@ -11,7 +11,7 @@
 - [X] Home section
 - [x] About me section
 - [x] Knowledge section
-- [x] Projects section
+- [ ] Projects section
 - [ ] form contact section
 - [ ] Footer
 - [ ] Responsivity
