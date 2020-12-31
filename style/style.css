@@ -20,7 +20,7 @@
 .nav{
     opacity: 1;    
     transition: 0.7s;   
-    position: absolute;
+    
 }
 
 .hide{    
@@ -538,21 +538,50 @@ a:active, a:hover{
 }
 
 .projetos h2{
-    text-align: center;
-    padding-top: 3.5rem;
+    text-align: center;    
+    padding-top: 3.3rem;
     padding-bottom: 3.5rem;
     font-family: var(--Sans);
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 950;
 }
 
 .projetos .projetos-container .projetos-carousel{    
-    width: 60%;
+    width: 67%;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .carousel-slide{
+    
     display: flex;
     width: 100%;
     height: 500px;
+}
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 40px;
+    z-index: 10;
+    color: #fff;
+    cursor: pointer;
+}   
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-size: 40px;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-container{
+    margin-top: 6rem;
+    background-color: #000000;    
+    padding: 5rem;
 }

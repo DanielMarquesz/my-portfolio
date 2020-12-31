@@ -29,8 +29,8 @@
                     <ul>
                         <li><a href="#" class="active">Início</a></li>
                         <li><a href="#sobre" >Sobre mim</a></li>
-                        <li><a href="#" >Conhecimentos</a></li>
-                        <li><a href="#" >Projetos</a></li>
+                        <li><a href="#conhecimentos" >Conhecimentos</a></li>
+                        <li><a href="#projetos" >Projetos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -50,7 +50,7 @@
     
         </section>
     
-        <section class="above">
+        <section class="above" id="sobre">
     
             <div class="header-about-me">
                 <h2>Sobre mim</h2>
@@ -67,7 +67,7 @@
             </div>
         </section>
 
-        <section class="container-conhecimento">
+        <section class="container-conhecimento" id="conhecimentos">
             
             <div class="header-conhecimento">
                 <h2>Conhecimentos</h2>
@@ -175,7 +175,7 @@
             </div>            
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             
             <div class="projetos-container">
                 <div>
@@ -183,6 +183,9 @@
                 </div>
 
                 <div class="projetos-carousel">
+                    <i class="fas fa-arrow-circle-left" id="prevBtn"></i>
+                    <i class="fas fa-arrow-circle-right" id="nextBtn"></i>
+
                     <div class="carousel-slide">
                         <img src="/img/img3.jpg" id="lastClone" alt="">
                         <img src="/img/img1.jpg" alt="">
@@ -193,12 +196,20 @@
                     </div>
                 </div>
 
-                <button id="prevBtn">Previos</button>
-                <button id="nextBtn">Next</button>
+                
             </div>
 
         </section>
+
+        <footer>
+            <div class="footer-container">
+    
+            </div>
+        </footer>
+
     </div>
+
+    
 
     <script src="/script/main.js"></script>
 </body>
