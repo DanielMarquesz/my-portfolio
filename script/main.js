@@ -6,7 +6,7 @@ onload=function(){
 function toggleClass(){     // Change the class of the navigation bar 
     
     if(window.scrollY > 200){
-        document.getElementById('nav').className='nav';
+        document.getElementById('nav').className='nav-tera';
 
     }if(window.scrollY <= 600){
         document.getElementById('nav').className='hide';

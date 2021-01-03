@@ -9,6 +9,7 @@
     --Karla: "Karla", serif;
 }
 
+
 * {
     padding: 0;
     margin: 0;
@@ -35,22 +36,15 @@
     width: 100%;
     height: 4rem;   
     position: fixed;
+    z-index: 100;
 }
-
-/* nav{
-    background-color: #000000;    
-    width: 100%;
-    height: 4rem;   
-    position: fixed;
-} */
 
 nav label{
     color: #ffffff;
     line-height: 3.5rem;
     font-size: 2rem;
     font-family: var(--Sans);
-    margin: 0rem 2rem;
-    
+    margin: 0rem 2rem;    
 }
 
 nav ul{
@@ -421,7 +415,8 @@ a:active, a:hover{
 .box{
     
     width: 250px;
-    margin: 0 auto;          
+    margin: 0 auto; 
+    perspective: 1000px;         
 }
 
 
@@ -451,6 +446,7 @@ a:active, a:hover{
 
     height: 80px;
     font-size: 50px;
+    
 }
 
 .box .conhecimento-back{
@@ -582,6 +578,39 @@ a:active, a:hover{
 
 .footer-container{
     margin-top: 6rem;
+    width: 100%;
     background-color: #000000;    
-    padding: 5rem;
+    padding: .6rem 0 .5rem 0;
+    
+}
+
+.footer-container h4{
+    color: #fff;
+    margin-top: 2.5rem;
+    text-align: center;
+    width: 20%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left:3.4rem;
+    font-family: var(--Karla);    
+}
+
+.footer-container .social-medias {
+    display: flex;
+    justify-content:space-evenly;
+    width: 30%;
+    margin-top: -2rem; 
+    margin: auto;
+    padding-bottom: 1.5rem;   
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left:3rem;
+}
+
+.footer-container p{
+    color: #fff;
+    text-align: center;
+    font-family: var(--Karla); 
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
