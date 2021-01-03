@@ -605,6 +605,11 @@ a:active, a:hover{
     font-size: 2.5rem;
     color: #fff;
     margin-left:3rem;
+    text-decoration: none;
+}
+
+.footer-container .social-medias a{
+    color: #fff;
 }
 
 .footer-container p{
