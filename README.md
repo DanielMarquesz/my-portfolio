@@ -11,9 +11,9 @@
 - [X] Home section
 - [x] About me section
 - [x] Knowledge section
-- [ ] Projects section
-- [ ] form contact section
-- [ ] Footer
+- [X] Projects section
+- [X] Footer
 - [ ] Responsivity
+- [ ] Content
 
 <hr>
