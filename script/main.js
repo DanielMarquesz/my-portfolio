@@ -1,4 +1,4 @@
-
+alert("Página Em Desenvolvimento")
 onload=function(){
     document.body.style.visibility="visible"
     }

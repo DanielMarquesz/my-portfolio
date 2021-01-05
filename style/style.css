@@ -150,9 +150,9 @@ a:active, a:hover{
     font-family: 'Karla', sans-serif;
     font-size: 4rem;
     color: #ffffff;
-    text-shadow: 2px 2px 8px #000000;
+    text-shadow: 2px 2px 8px #000000;    
     position: absolute;
-    left: 19%;
+    left: 20%;
     top: 30%;
 }
 
