@@ -1,7 +1,9 @@
 
 document.body.style.visibility="hiden";
 
-window.onload.style.visibility="visibleclear";
+if(window.onload){
+    document.body.style.visibility="visible";
+}
 
 function toggleClass(){     // Change the class of the navigation bar 
     
@@ -40,7 +42,7 @@ function type() {
         count++;
         index = 0;
     }
-    setTimeout(type, 200)
+    setTimeout(type, 70)
 }
 
 type()
