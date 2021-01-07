@@ -1,4 +1,3 @@
-alert("Página Em Desenvolvimento")
 
 document.body.style.visibility="hiden";
 
