@@ -194,7 +194,7 @@ a:active, a:hover{
     }
 }
 
-@media(max-width: 530){
+/* @media(max-width: 530){
     .banner{
 
         font-family: var(--Karla);
@@ -216,7 +216,7 @@ a:active, a:hover{
         top: 110%;    
     
     }
-}
+} */
 
 
 @media(max-width: 463px){

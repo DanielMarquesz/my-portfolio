@@ -1,7 +1,8 @@
 alert("Página Em Desenvolvimento")
-onload=function(){
-    document.body.style.visibility="visible"
-    }
+
+document.body.style.visibility="hiden";
+
+window.onload.style.visibility="visibleclear";
 
 function toggleClass(){     // Change the class of the navigation bar 
     
@@ -19,10 +20,10 @@ window.addEventListener("scroll", function(){
 
 
 const msgs = ["Olá! Bem vindo ao meu Portfólio!            ", "Aqui você pode me conhecer melhor!"]
-let count = 0;
-let index = 0;
-let currentText = "";
-let letter = "";
+var count = 0;
+var index = 0;
+var currentText = "";
+var letter = "";
 
 function type() {
 
