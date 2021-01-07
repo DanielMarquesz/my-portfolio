@@ -116,6 +116,7 @@ a:active, a:hover{
 
     nav ul li a{        
         font-size: 2rem;
+        display: block;
     }
 
     a:active,a:hover{
@@ -126,7 +127,8 @@ a:active, a:hover{
 
     #check:checked ~ ul {
         left: 0; 
-    }
+    }   
+    
 }
 
 .img-wrapper img{

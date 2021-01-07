@@ -11,11 +11,9 @@ function toggleClass(){     // Change the class of the navigation bar
     }if(window.scrollY <= 600){
         document.getElementById('nav').className='hide';
     }
-
 }
 
 window.addEventListener("scroll", function(){
-
     toggleClass();
 })
 
@@ -102,3 +100,14 @@ carouselSlide.addEventListener('transitionend', () => {
         carouselSlide.style.transform = 'translateX('+ (-size * counter) + 'px)';
     }
 }); 
+
+// Hidden Menu After Click
+
+function hideMenu(){
+    let menuOpen = document.querySelector('.toggler').checked;
+  
+        if(menuOpen = true){
+            document.querySelector('.toggler').checked = false;
+        }
+    }
+    window.addEventListener("scroll", hideMenu);
