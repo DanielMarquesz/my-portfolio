@@ -1,7 +1,7 @@
 # My Professional Portfolio
 
 
-### This project is current progress but you can see him here https://portdaniell.netlify.app
+### This project is current progress but you can see him here https://danielmarquess.netlify.app
 
 <hr>
 
