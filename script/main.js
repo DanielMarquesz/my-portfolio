@@ -1,9 +1,4 @@
-
-// document.body.style.visibility="hiden";
-
-// if(window.onload){
-//     document.body.style.visibility="visible";
-// }
+alert('Página em Desenvolvimento!')
 
 function toggleClass(){     // Change the class of the navigation bar 
     
@@ -96,7 +91,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
 
     if (carouselImages[counter].id === 'firstClone'){
-        console.log(counter)
+        
         carouselSlide.style.transition = "none";
         counter = carouselImages.length - counter;
         carouselSlide.style.transform = 'translateX('+ (-size * counter) + 'px)';
