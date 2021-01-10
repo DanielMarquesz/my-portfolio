@@ -9,7 +9,6 @@
     --Karla: "Karla", serif;
 }
 
-
 * {
     padding: 0;
     margin: 0;
@@ -82,54 +81,6 @@ a:active, a:hover{
     display: none;
 }
 
-@media(max-width: 857px){
-    label.logo{
-        font-size: 1.6rem;
-    }
-    nav ul li a{
-        font-size: 1rem;
-    }
-}
-
-@media(max-width: 673px){
-
-    .check-btn{
-        display: block;
-    }
-
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;        
-        background: rgb(148, 142, 142);    
-        top: 64px;       
-        left: -100%;
-        text-align: center;  
-        transition: all .5s;  
-    }
-
-    nav ul li{               
-        display: block;
-        margin: 25px 0;
-        line-height: 6rem;
-    }
-
-    nav ul li a{        
-        font-size: 2rem;
-        display: block;
-    }
-
-    a:active,a:hover{
-        background: none;
-        color: rgb(0, 0, 0);
-        text-shadow: #000000 1px right;
-    }
-
-    #check:checked ~ ul {
-        left: 0; 
-    }   
-    
-}
 
 .img-wrapper img{
 
@@ -166,123 +117,9 @@ a:active, a:hover{
     text-shadow: 2px 2px 8px #000000;
     position: absolute;
     left: 18%;
-    top: 110%;    
-
+    top: 110%;
 }
 
-@media(max-width: 857px){
-    .banner{
-
-        font-family: var(--Karla);
-        font-size: 3rem;
-        color: #ffffff;
-        position: absolute;
-        left: 20%;
-        top: 30%;        
-    }
-
-    .banner p{
-    
-        font-family: 'Karla', sans-serif;
-        font-size: 1rem;
-        color: #ffffff;
-        text-shadow: 2px 2px 8px #000000;
-        position: absolute;
-        left: 15%;
-        top: 110%;    
-    
-    }
-}
-
-/* @media(max-width: 530){
-    .banner{
-
-        font-family: var(--Karla);
-        font-size: 3rem;
-        color: #ffffff;
-        position: absolute;
-        left: 20%;
-        top: 30%;        
-    }
-
-    .banner p{
-    
-        font-family: 'Karla', sans-serif;
-        font-size: 8rem;
-        color: #ffffff;
-        text-shadow: 2px 2px 8px #000000;
-        position: absolute;
-        left: 0;
-        top: 110%;    
-    
-    }
-} */
-
-
-@media(max-width: 463px){
-    .banner{
-
-        font-family: var(--Karla);
-        font-size: 10rem;
-        color: #ffffff;
-        position: absolute;
-        left: 10%;
-        top: 30%;        
-    }
-
-    .banner p{
-    
-        font-family: 'Karla', sans-serif;
-        font-size: 1rem;
-        color: #ffffff;
-        text-shadow: 2px 2px 8px #000000;
-        position: absolute;
-        left: 16%;
-        top: 110%;    
-    
-    }
-}
-
-
-@media(max-width: 423px){
-    .banner{
-
-        font-family: var(--Karla);
-        font-size: 10rem;
-        color: #ffffff;
-        position: absolute;
-        left: 15%;
-        top: 30%;        
-    }
-
-    .banner p{
-    
-        font-family: 'Karla', sans-serif;
-        font-size: 1rem;
-        color: #ffffff;
-        text-shadow: 2px 2px 8px #000000;
-        position: absolute;
-        left: 0%;
-        top: 110%;       
-    }
-
-    
-}
-
-
-
-@media(max-width: 673px){
-    div.banner{
-
-        font-family: var(--Karla);
-        font-size: 2rem;
-        color: #ffffff;
-        position: absolute;
-        left: 15%;
-        top: 30%;        
-    }
-    
-}
 
 .typing-stop{
 
@@ -330,7 +167,7 @@ a:active, a:hover{
     }
 }
 
-/* #####################  Sessão Sobre mim ######################### */
+/* ---------------------- About me section ------------------------ */
 
 .above{    
 
@@ -360,33 +197,7 @@ a:active, a:hover{
     padding-bottom: 3rem;
 }
 
-@media(max-width: 423px){
-
-    .header-about-me h2{    
-
-        display: flex;    
-        justify-content: center;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        font-family: var(--Karla);
-        font-size: 2rem;
-        font-weight: 950;  
-    }
-    
-    .about-me p {
-
-        text-align: justify;
-        line-height: 2.3rem;
-        font-family: var(--Karla);
-        font-size: 1.3rem;
-        margin-left: 3.2rem;
-        margin-right: 3.2rem;
-        padding-bottom: 3rem;
-    }
-
-}
-
-/* ############################ Sessão Conhecimentos #######################*/
+/* ---------------------- Knowledge section  ---------------------- */
 
 .container-conhecimento{
 
@@ -420,7 +231,6 @@ a:active, a:hover{
     margin: 0 auto; 
     perspective: 1000px;         
 }
-
 
 
 .box:hover{
@@ -486,58 +296,7 @@ a:active, a:hover{
     transform: translateY(-110px) rotateX(90deg);
 }
 
-@media(max-width:384px){
-
-    .conhecimento-wrapper .box .conhecimento-front{
-    
-        background: #fff;
-        height: 180px;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-shadow: 0px 5px 20px 0px rgb(0, 0, 0);
-        border-radius: .2rem;
-        transition: all 0.5s ease;
-    }
-
-
-    .box .conhecimento-back{
-    
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: #fff;
-        z-index: 1;
-        height: 180px;
-        width: 80%;
-        padding: 30px;    
-        transform-style: preserve-3d;
-        backface-visibility: hidden;    
-        opacity: 0;
-        background: rgb(121, 82, 82);
-        transform: translateY(110px) rotateX(-90deg);
-        transition: all 0.5s ease;
-    }
-
-    .conhecimento-wrapper .box .conhecimento-front .icon{
-
-        height: 57px;
-        font-size: 40px;
-    }
-
-    .header-conhecimento{
-
-        display: flex;    
-        justify-content: center;
-        padding-top: 4rem;
-        padding-bottom: 5rem;
-        font-family: var(--Karla);
-        font-size: 1.5rem;
-        font-weight: 950;
-    }
-
-}
+/* ------------------ Projetos ------------------- */
 
 .projetos h2{
     text-align: center;    
@@ -624,4 +383,233 @@ a:active, a:hover{
     font-family: var(--Karla); 
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+/*  ---------------------- Media queries -------------------- */
+
+@media(max-width: 857px){
+    label.logo{
+        font-size: 1.6rem;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 673px){
+
+    .check-btn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;        
+        background: rgb(148, 142, 142);    
+        top: 64px;       
+        left: -100%;
+        text-align: center;  
+        transition: all .5s;  
+    }
+
+    nav ul li{               
+        display: block;
+        margin: 25px 0;
+        line-height: 6rem;
+    }
+
+    nav ul li a{        
+        font-size: 2rem;
+        display: block;
+    }
+
+    a:active,a:hover{
+        background: none;
+        color: rgb(0, 0, 0);
+        text-shadow: #000000 1px right;
+    }
+
+    #check:checked ~ ul {
+        left: 0; 
+    }   
+    
+}
+
+
+@media(max-width: 894px){
+    .banner{
+
+        font-family: var(--Karla);
+        font-size: 3rem;        
+        color: #ffffff;
+        position: absolute;
+        left: 20%;
+        top: 30%;        
+    }
+
+    .banner p{
+    
+        font-family: 'Karla', sans-serif;
+        font-size: 1rem;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+        position: absolute;
+        left: 15%;
+        top: 110%;    
+    
+    }
+}
+
+
+@media(max-width: 463px){
+    .banner{
+
+        font-family: var(--Karla);
+        font-size: 10rem;
+        color: #ffffff;
+        position: absolute;
+        left: 10%;
+        top: 30%;        
+    }
+
+    .banner p{
+    
+        font-family: 'Karla', sans-serif;
+        font-size: 1rem;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+        position: absolute;
+        left: 16%;
+        top: 110%;    
+    
+    }
+}
+
+
+@media(max-width: 423px){
+    .banner{
+
+        font-family: var(--Karla);
+        font-size: 10rem;
+        color: #ffffff;
+        position: absolute;
+        left: 15%;
+        top: 30%;        
+    }
+
+    .banner p{
+    
+        font-family: 'Karla', sans-serif;
+        font-size: 1rem;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+        position: absolute;
+        left: 0%;
+        top: 110%;       
+    }
+
+    
+}
+
+
+@media(max-width: 673px){
+    div.banner{
+
+        font-family: var(--Karla);
+        font-size: 2rem;
+        color: #ffffff;
+        position: absolute;
+        left: 15%;
+        top: 30%;        
+    }
+    
+}
+
+@media(max-width: 423px){
+
+    .header-about-me h2{    
+
+        display: flex;    
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-family: var(--Karla);
+        font-size: 2rem;
+        font-weight: 950;  
+    }
+    
+    .about-me p {
+
+        text-align: justify;
+        line-height: 2.3rem;
+        font-family: var(--Karla);
+        font-size: 1.3rem;
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        padding-bottom: 3rem;
+    }
+
+    .projetos h2{
+        text-align: center;    
+        padding-top: 3.3rem;
+        padding-bottom: 3.5rem;
+        font-family: var(--Sans);
+        font-size: 2rem;
+        font-weight: 950;
+    }
+
+}
+
+@media(max-width:384px){
+
+    .conhecimento-wrapper .box .conhecimento-front{
+    
+        background: #fff;
+        height: 180px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0px 5px 20px 0px rgb(0, 0, 0);
+        border-radius: .2rem;
+        transition: all 0.5s ease;
+    }
+
+
+    .box .conhecimento-back{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        z-index: 1;
+        height: 180px;
+        width: 80%;
+        padding: 30px;    
+        transform-style: preserve-3d;
+        backface-visibility: hidden;    
+        opacity: 0;
+        background: rgb(116, 112, 112);
+        transform: translateY(110px) rotateX(-90deg);
+        transition: all 0.5s ease;
+    }
+
+    .conhecimento-wrapper .box .conhecimento-front .icon{
+
+        height: 57px;
+        font-size: 40px;
+    }
+
+    .header-conhecimento{
+
+        display: flex;    
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        font-family: var(--Karla);
+        font-size: 1.5rem;
+        font-weight: 950;
+    }
+
 }
