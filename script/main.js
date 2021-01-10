@@ -1,4 +1,7 @@
-alert('Página em Desenvolvimento!')
+
+window.onload = () => {
+
+// alert('Página em Desenvolvimento!')
 
 function toggleClass(){     // Change the class of the navigation bar 
     
@@ -108,3 +111,4 @@ function hideMenu(){
         }
     }
     window.addEventListener("scroll", hideMenu);
+}
