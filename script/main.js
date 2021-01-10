@@ -101,7 +101,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
 }); 
 
-
+// Reload the page everytime thats resize it self
 window.addEventListener('resize', ()=>{
 
     document.location.reload();
