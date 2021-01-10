@@ -66,8 +66,7 @@ nav ul li a{
 }
 
 a:active, a:hover{
-
-    color:#7e2727;;
+    color:#7e2727;
     transition: 0.6s;   
 }
 
@@ -83,7 +82,6 @@ a:active, a:hover{
 
 
 .img-wrapper img{
-
     width: 100%;
     height: 100vh;    
     object-fit: cover;  
@@ -91,15 +89,13 @@ a:active, a:hover{
     opacity: 0.5;
 }
 
-.img-wrapper{
-    
+.img-wrapper{    
     background-repeat:  no-repeat;
     background-size: cover;    
     background-color: #000000;    
 }
 
 .banner{
-
     font-family: 'Karla', sans-serif;
     font-size: 4rem;
     color: #ffffff;
@@ -109,8 +105,7 @@ a:active, a:hover{
     top: 30%;
 }
 
-.banner p{
-    
+.banner p{    
     font-family: 'Karla', sans-serif;
     font-size: 1.5rem;
     color: #ffffff;
@@ -122,12 +117,10 @@ a:active, a:hover{
 
 
 .typing-stop{
-
     content: "";          
 }
 
 .typing-stop::after{
-
     content: "  ";
     position: absolute;
     right: -.6rem;
@@ -139,12 +132,10 @@ a:active, a:hover{
 }
 
 .typing{
-
     position: relative;
 }
 
 .typing::after{
-
     content: "";
     position: absolute;
     text-align: center;
@@ -157,7 +148,6 @@ a:active, a:hover{
 }
 
 @keyframes blink{
-
     0%{
         opacity: 0;
     }
@@ -170,13 +160,11 @@ a:active, a:hover{
 /* ---------------------- About me section ------------------------ */
 
 .above{    
-
     margin-top: -.2rem;
     background: #ffffff;  
 }
 
-.header-about-me h2{   
-
+.header-about-me h2{
     display: flex;    
     justify-content: center;
     padding-top: 4rem;
@@ -187,7 +175,6 @@ a:active, a:hover{
 }
 
 .about-me p {
-
     text-align: justify;
     line-height: 2.3rem;
     font-family: var(--Karla);
@@ -200,12 +187,10 @@ a:active, a:hover{
 /* ---------------------- Knowledge section  ---------------------- */
 
 .container-conhecimento{
-
     background: #eee7e7; 
 }
 
 .header-conhecimento{
-
     display: flex;    
     justify-content: center;
     padding-top: 4rem;
@@ -216,7 +201,6 @@ a:active, a:hover{
 }
 
 .conhecimento-wrapper{
-
     text-align: center;
     display: grid;
     margin: 1.5rem 5rem 5rem;
@@ -225,8 +209,7 @@ a:active, a:hover{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));     
 }
 
-.box{
-    
+.box{    
     width: 250px;
     margin: 0 auto; 
     perspective: 1000px;         
@@ -241,8 +224,7 @@ a:active, a:hover{
     cursor: pointer;  
 }
 
-.conhecimento-wrapper .box .conhecimento-front{
-    
+.conhecimento-wrapper .box .conhecimento-front{    
     background: #fff;
     height: 220px;
     width: 100%;
@@ -255,14 +237,12 @@ a:active, a:hover{
 }
 
 .conhecimento-wrapper .box .conhecimento-front .icon{
-
     height: 80px;
     font-size: 50px;
     
 }
 
-.box .conhecimento-back{
-    
+.box .conhecimento-back{    
     position: absolute;
     top: 0;
     left: 0;
@@ -284,14 +264,12 @@ a:active, a:hover{
 }
 
 .box:hover .conhecimento-back{
-
     opacity: 1;
     transform: rotateX(0deg);
     border-radius: .2rem;
 }
 
-.box:hover .conhecimento-front{
-    
+.box:hover .conhecimento-front{    
     opacity: 0;
     transform: translateY(-110px) rotateX(90deg);
 }
@@ -308,17 +286,22 @@ a:active, a:hover{
 }
 
 .projetos .projetos-container .projetos-carousel{    
-    width: 67%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
     position: relative;
 }
 
-.carousel-slide{
-    
+.carousel-slide{    
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 500px;    
+}
+
+.carousel-slide img{    
+    display: flex;
+    width: 100%;
+    height: 500px;    
 }
 
 #prevBtn{
@@ -434,8 +417,19 @@ a:active, a:hover{
         left: 0; 
     }   
     
+    
 }
 
+@media(max-width: 916px){
+    .projetos .projetos-container .projetos-carousel{    
+        width: 80%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        left: 5%;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 @media(max-width: 894px){
     .banner{
@@ -484,6 +478,7 @@ a:active, a:hover{
         top: 110%;    
     
     }
+    
 }
 
 
@@ -523,10 +518,48 @@ a:active, a:hover{
         left: 15%;
         top: 30%;        
     }
+
+    .footer-container .social-medias {
+        display: flex;
+        justify-content:space-evenly;
+        width: 75%;
+        margin-top: -2rem; 
+        margin: auto;
+        padding-bottom: 1.5rem;   
+        font-size: 2.5rem;        
+        margin-left:3rem;        
+    }
+
+    .footer-container h4{
+        color: #fff;
+        margin-top: 2.5rem;
+        text-align: center;
+        width: 76%;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        margin-left:3.4rem;
+        font-family: var(--Karla);    
+    }
+
+    .footer-container .social-medias a:hover{
+        color:#7e2727;
+        transition: 0.6s; 
+    }
     
 }
 
 @media(max-width: 423px){
+
+    .header-conhecimento{
+
+        display: flex;    
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        font-family: var(--Karla);
+        font-size: 1rem;
+        font-weight: 950;
+    }
 
     .header-about-me h2{    
 
@@ -559,6 +592,8 @@ a:active, a:hover{
         font-weight: 950;
     }
 
+    
+
 }
 
 @media(max-width:384px){
@@ -573,7 +608,7 @@ a:active, a:hover{
         justify-content: center;
         box-shadow: 0px 5px 20px 0px rgb(0, 0, 0);
         border-radius: .2rem;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease;        
     }
 
 
@@ -595,21 +630,14 @@ a:active, a:hover{
         transition: all 0.5s ease;
     }
 
+    .box .conhecimento-back p{
+        font-size: 0.8rem;
+        
+    }
+
     .conhecimento-wrapper .box .conhecimento-front .icon{
 
         height: 57px;
         font-size: 40px;
-    }
-
-    .header-conhecimento{
-
-        display: flex;    
-        justify-content: center;
-        padding-top: 3rem;
-        padding-bottom: 4rem;
-        font-family: var(--Karla);
-        font-size: 1.5rem;
-        font-weight: 950;
-    }
-
+    }    
 }
