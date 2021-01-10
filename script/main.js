@@ -101,6 +101,13 @@ carouselSlide.addEventListener('transitionend', () => {
     }
 }); 
 
+
+window.addEventListener('resize', ()=>{
+
+    document.location.reload();
+})
+
+
 // Hidden Menu After Click
 
 function hideMenu(){
@@ -111,4 +118,5 @@ function hideMenu(){
         }
     }
     window.addEventListener("scroll", hideMenu);
+
 }
