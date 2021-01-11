@@ -298,6 +298,12 @@ a:active, a:hover{
     height: 500px;    
 }
 
+.carousel-slide img{    
+    display: flex;
+    width: 100%;
+    height: 500px;       
+}
+
 
 #prevBtn{
     position: absolute;
@@ -423,12 +429,11 @@ a:active, a:hover{
         margin-left: 2rem;
         margin-right: 2rem;       
         position: relative;
-        left: 1%;
+        left: 7%;
     }
 
     .carousel-slide{    
-        display: flex;
-           
+        display: flex;           
     }
 }
 
@@ -444,8 +449,7 @@ a:active, a:hover{
         top: 30%;        
     }
 
-    .banner p{
-    
+    .banner p{    
         font-family: 'Karla', sans-serif;
         font-size: 1rem;
         color: #ffffff;
@@ -455,12 +459,19 @@ a:active, a:hover{
         top: 110%;    
     
     }
+
+    .projetos .projetos-container .projetos-carousel{    
+        width: 80%;
+        margin-left: 2rem;
+        margin-right: 2rem;       
+        position: relative;
+        left: 1%;
+    }
 }
 
 
 @media(max-width: 463px){
     .banner{
-
         font-family: var(--Karla);
         font-size: 10rem;
         color: #ffffff;
@@ -469,8 +480,7 @@ a:active, a:hover{
         top: 30%;        
     }
 
-    .banner p{
-    
+    .banner p{    
         font-family: 'Karla', sans-serif;
         font-size: 1rem;
         color: #ffffff;
@@ -485,16 +495,6 @@ a:active, a:hover{
 
 
 @media(max-width: 423px){
-    /* .banner{
-
-        font-family: var(--Karla);
-        font-size: 10rem;
-        color: #ffffff;
-        position: absolute;
-        left: 15%;
-        top: 30%;        
-    } */
-
     .banner p{
     
         font-family: 'Karla', sans-serif;
@@ -512,7 +512,6 @@ a:active, a:hover{
 
 @media(max-width: 673px){
     div.banner{
-
         font-family: var(--Karla);
         font-size: 2rem;
         color: #ffffff;
