@@ -1,10 +1,10 @@
-# My Professional Portfolio
+# My Professional Portfolio :page_facing_up:
 
 ### This project is current progress but you can see him here https://danielmarquess.netlify.app
 
 <hr>
 
-## Things to do
+## Things to do :clipboard:
 
 
 - [X] Home section
@@ -18,7 +18,7 @@
 
 <hr>
 
-## Material reference
+## Material reference :books:
 
 * [JavaScript Official Documentation](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [W3schools](https://www.w3schools.com/js/default.asp)
