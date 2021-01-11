@@ -487,16 +487,14 @@ a:active, a:hover{
         text-shadow: 2px 2px 8px #000000;
         position: absolute;
         left: 16%;
-        top: 110%;    
-    
+        top: 110%;   
     }
     
 }
 
 
 @media(max-width: 423px){
-    .banner p{
-    
+    .banner p{    
         font-family: 'Karla', sans-serif;
         font-size: 1rem;
         color: #ffffff;
@@ -504,9 +502,7 @@ a:active, a:hover{
         position: absolute;
         left: 0%;
         top: 110%;       
-    }
-
-    
+    }    
 }
 
 
@@ -540,9 +536,7 @@ a:active, a:hover{
         margin-bottom: 1rem;
         margin-left:3.4rem;
         font-family: var(--Karla);    
-    }
-    
-    
+    }    
 }
 
 @media(max-width: 423px){
