@@ -13,7 +13,7 @@
 - [X] Projects section
 - [X] Footer
 - [ ] Smooth Transition
-- [ ] Responsivity
+- [x] Responsivity
 - [x] Content
 
 <hr>
